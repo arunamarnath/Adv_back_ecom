@@ -1,0 +1,59 @@
+/* Products.css */
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between product cards */
+  justify-content: center; /* Center the product cards */
+  padding: 20px; /* Space around the container */
+}
+
+.product-card {
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Space inside the card */
+    max-width: 300px; /* Maximum width of the card */
+    margin: 50px 5px; /* Center the card horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text */
+    background-color: #fff; /* White background */
+    max-height: fit-content;
+  }
+  
+  .product-card img {
+    max-width: 50%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners on the image */
+  }
+  
+  .product-card h3 {
+    font-size: 1.5rem; /* Font size for the title */
+    margin: 10px 0; /* Space above and below the title */
+  }
+  
+  .product-card p {
+    font-size: 0.5rem; /* Font size for the description */
+    color: #666; /* Darker grey for description text */
+    margin: 10px 0; /* Space above and below the description */
+  }
+  
+  .product-card div {
+    font-size: 1.2rem; /* Font size for the price */
+    font-weight: bold; /* Bold text for price */
+    margin: 10px 0; /* Space above and below the price */
+  }
+  
+  .product-card button {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Space inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size */
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

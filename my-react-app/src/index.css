@@ -14,7 +14,8 @@ header {
   align-items: center;
   background-color: black;
   color: white;
-  padding: 5px 20px;
+  padding: 10px;
+  
 }
 
 .nav {
@@ -32,4 +33,82 @@ header {
 .nav-link:hover {
   background-color: #333;
   color: #f0f0f0;
+}
+
+/* Products.css */
+
+/* Adjust container to fit smaller cards */
+/* Products.css */
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Further reduced space between product cards */
+  justify-content: center; /* Center the product cards */
+  padding: 10px; /* Further reduced space around the container */
+}
+
+/* Even smaller product card with compact spacing */
+.product-card {
+  border: 1px solid #ddd; /* Light grey border */
+  border-radius: 6px; /* Slightly smaller rounded corners */
+  padding: 6px; /* Further reduced space inside the card */
+  max-width: 180px; /* Smaller maximum width of the card */
+  margin: 8px; /* Further reduced margin to fit content */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* More subtle shadow */
+  text-align: center; /* Center text */
+  background-color: #fff; /* White background */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Adjust image size to fit smaller card */
+.product-card img {
+  max-width: 80%; /* Make image fit the card width more closely */
+ max-height: 100px; /* Maintain aspect ratio */
+  border-radius: 4px; /* Rounded corners on the image */
+  margin-bottom: 6px; /* Reduced space below the image */
+}
+
+/* Ensure title fits within smaller card */
+.product-card h3 {
+  font-size: 0.75rem; /* Even smaller font size for the title */
+  word-wrap: break-word; /* Ensure long words break and fit */
+  margin: 6px 0; /* Space above and below the title */
+}
+
+/* Adjust description to fit within the card */
+.product-card p {
+  font-size: 0.625rem; /* Smaller font size for the description */
+  color: #666; /* Darker grey for description text */
+  line-height: 1.3; /* Improved line height for readability */
+  overflow: hidden; /* Hide overflow text if necessary */
+  margin: 6px 0; /* Space above and below the description */
+}
+
+/* Ensure price fits within the card */
+.product-card div {
+  font-size: 0.75rem; /* Smaller font size for the price */
+  font-weight: bold; /* Bold text for price */
+  margin: 6px 0; /* Space above and below the price */
+}
+
+/* Style the button to fit the smaller card */
+.product-card button {
+  background-color: black; /* Blue background */
+  color: #fff; /* White text */
+  border: none; /* Remove default border */
+  padding: 4px 8px; /* Further reduced space inside the button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 0.625rem; /* Smaller font size */
+  margin-top: 6px; /* Space above the button */
+  
+}
+
+.product-card button:hover {
+  background-color:whitesmoke; /* Darker blue on hover */
+  color: black;
 }
