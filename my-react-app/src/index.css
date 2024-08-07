@@ -28,6 +28,9 @@ header {
   text-decoration: none;
   padding: 10px;
   transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap:2px;
 }
 
 .nav-link:hover {
@@ -93,6 +96,9 @@ header {
   font-size: 0.75rem; /* Smaller font size for the price */
   font-weight: bold; /* Bold text for price */
   margin: 6px 0; /* Space above and below the price */
+  display: flex;
+  align-items: center;
+  gap:2px;
 }
 
 /* Style the button to fit the smaller card */
@@ -105,10 +111,17 @@ header {
   cursor: pointer; /* Pointer cursor on hover */
   font-size: 0.625rem; /* Smaller font size */
   margin-top: 6px; /* Space above the button */
+  display: flex;
+  align-items: center;
+  gap:3px;
   
 }
 
 .product-card button:hover {
   background-color:whitesmoke; /* Darker blue on hover */
   color: black;
+}
+.price-symbol{
+  height: 16px;
+  width: 16px;
 }
